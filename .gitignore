@@ -1,3 +1,4 @@
 test-chain/accounts/*/
 test-chain/ca_cert/key.pem
 test-chain/certs/*/key.pem
+test-chain-*
