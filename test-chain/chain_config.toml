@@ -1,5 +1,3 @@
-node_network_address_list = []
-
 [[micro_service_list]]
 image = 'network_p2p'
 tag = 'latest'
@@ -23,6 +21,11 @@ tag = 'latest'
 [[micro_service_list]]
 image = 'kms_sm'
 tag = 'latest'
+
+[[node_network_address_list]]
+domain = 'node0'
+host = 'localhost'
+port = 40000
 
 [genesis_block]
 prevhash = '0x0000000000000000000000000000000000000000000000000000000000000000'
