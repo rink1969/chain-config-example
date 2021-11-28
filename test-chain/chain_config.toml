@@ -27,6 +27,11 @@ domain = 'node0'
 host = 'localhost'
 port = 40000
 
+[[node_network_address_list]]
+domain = 'node1'
+host = 'localhost'
+port = 40001
+
 [genesis_block]
 prevhash = '0x0000000000000000000000000000000000000000000000000000000000000000'
 timestamp = 1638081449922
