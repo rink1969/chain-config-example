@@ -1,0 +1,38 @@
+node_network_address_list = []
+
+[[micro_service_list]]
+image = 'network_p2p'
+tag = 'latest'
+
+[[micro_service_list]]
+image = 'consensus_raft'
+tag = 'latest'
+
+[[micro_service_list]]
+image = 'executor_evm'
+tag = 'latest'
+
+[[micro_service_list]]
+image = 'storage_rocksdb'
+tag = 'latest'
+
+[[micro_service_list]]
+image = 'controller'
+tag = 'latest'
+
+[[micro_service_list]]
+image = 'kms_sm'
+tag = 'latest'
+
+[genesis_block]
+prevhash = '0x0000000000000000000000000000000000000000000000000000000000000000'
+timestamp = 1638081449922
+
+[system_config]
+admin = ''
+block_interval = 3
+block_limit = 100
+chain_id = '63586a3c0255f337c77a777ff54f0040b8c388da04f23ecee6bfd4953a6512b4'
+validators = []
+version = 0
+
